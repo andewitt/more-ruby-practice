@@ -1,13 +1,13 @@
 require 'pry'
 
-puts("Who is your favorite Sweeney?")
+puts("What is one of my favorite things?")
 thing_one = gets.strip.upcase
 
-puts("Are you sure?")
+puts("What is another favorite thing?")
 thing_two = gets.strip.upcase
 
-puts("Be honest. It's Ben.")
+puts("Anything else?")
 thing_three = gets.strip.upcase
 
-
-puts("This my favorite Sweeney: #{thing_three}")
+puts("These are a few of my favorite things: #{thing_one}, #{thing_two}, #{thing_three}")
+#this is a comment

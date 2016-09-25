@@ -1,13 +1,14 @@
 require 'pry'
 
 puts("Who is your favorite Sweeney?")
-thing_one = gets.strip.upcase
+thing_one = gets
 
 puts("Are you sure?")
-thing_two = gets.strip.upcase
+thing_two = gets
 
 puts("Be honest. It's Ben.")
-thing_three = gets.strip.upcase
+user_input = gets
+thing_three = gets.strip.capitalize
 
 
-puts("This my favorite Sweeney: #{thing_three}") 
+puts("#{thing_three} is my favorite Sweeney.") 

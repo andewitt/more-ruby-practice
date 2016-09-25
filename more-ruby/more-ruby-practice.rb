@@ -11,3 +11,5 @@ thing_three = gets.strip.upcase
 
 puts("These are a few of my favorite things: #{thing_one}, #{thing_two}, #{thing_three}")
 #this is a comment
+
+#adding another comment
